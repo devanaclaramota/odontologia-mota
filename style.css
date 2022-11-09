@@ -47,8 +47,15 @@ a:hover{
 }
 #sobre{
     margin:60px;
+    width: 600px;
 }
-
+.img-sobre{
+    padding-bottom: 40px;
+    
+}
+.img-sobre img{
+    width: 350px;
+}
 #banner{
     background-color: #F6AE2D;
     
