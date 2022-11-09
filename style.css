@@ -1,0 +1,89 @@
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color:#0B3954;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+header img{
+    width: 70%;
+}
+ a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#wpp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    bottom: 30px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 37px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    
+}
+.horarios button{
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    width: 80%;
+    padding: 4px;
+    border: 1px solid white;
+}
+#sobre{
+    margin:60px;
+}
+.atuamos{
+    background-color: #0B3954;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.atuamos li{
+    margin: 8px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    font-size: 1.6em;
+}
+.atuamos h2{
+    text-align: center;
+    padding: 40px;
+}
+#carouselExampleControls{
+    padding: 30px;
+    margin: auto;
+    max-width:70%;
+}
+@media (max-width:505px){
+
+ header{
+    display: block;
+ }
+ header img{
+    width: 100%;
+}
+.horarios{
+    background-color: rgb(9, 9, 215);
+    color: white;
+    text-align: center;
+}
+
+
+}
